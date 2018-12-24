@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    background-image: url(../images/titleBackground.jpeg);
+    background-size: cover;
+    height: 150px;
+    padding-top: 40px;
+}
+
+label {
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    margin: 10px;
+    border-radius: 25px;
+    background: url(../images/buttons.jpg);
+    border: 5px solid white;
+    text-transform: capitalize;
+}
+
+#gif-buttons {
+    /* border: 1px solid yellow; */
+    text-align: center;
+}
+
+#formContainer {
+    /* border: 1px solid red; */
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#gif-input {
+    text-transform: capitalize;
+}
+
+#addGifs {
+    height: 25px;
+    width: 75px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background: url(../images/buttons.jpg);
+}
+
+#gifs-view {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
