@@ -67,4 +67,6 @@ button {
     padding-top: 50px;
     color: white;
     text-align: center;
+    float: left;
+    clear: both;
 }

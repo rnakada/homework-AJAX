@@ -10,7 +10,7 @@ function display() {
     // API key from website
     var API = "ADiPPX3uge4AgVzcZ8qPm90bVeoQ6Z04";
     // Added topics and API key to the URL
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topics + "&api_key=" + API + "&limit=20";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topics + "&api_key=" + API + "&limit=20";
     console.log(queryURL);
     // JQuery is using AJAX to call the data from the URL and using the method "GET" to retrieve
     $.ajax({
